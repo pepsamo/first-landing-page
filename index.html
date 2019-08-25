@@ -29,8 +29,8 @@
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                    aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -40,13 +40,24 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form action="" method="post">
+                                <form action="index.html" method="post">
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" name="first-name"
+                                                placeholder="First Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" name="last-name"
+                                                placeholder="Last Name">
+
+                                        </div>
+                                    </div>
                             </div>
                             <div class="modal-footer">
                                 <input class="btn" type="submit" value="Send">
                                 <input class="btn" type="reset" value="Reset">
                             </div>
-                                </form>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -63,6 +74,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/692c294db6.js"></script>
 </body>
 
 </html>
