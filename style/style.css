@@ -1,4 +1,24 @@
+html,
 body {
     height: 100%;
-    width: 100%;
+    width: 100%
 }
+body {
+    background-color: rgb(245, 246, 247);
+}
+.container-fluid {
+    height: inherit;
+    width: 95%;
+    background: url("../img/LandingStock_image_12.jpg");
+    background-size: 95% 100%;
+}
+/*.col h1 {
+    
+}*/
+
+@media (max-width: 575.98px) { 
+    section {
+
+    }
+ }
+
