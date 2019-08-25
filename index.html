@@ -43,14 +43,53 @@
                                 <form action="index.html" method="post">
                                     <div class="form-row">
                                         <div class="col">
-                                            <input type="text" class="form-control" name="first-name"
-                                                placeholder="First Name">
+                                            <div class="inner-addon right-addon">
+                                                <input type="text" class="form-control" name="first-name"
+                                                    placeholder="First Name" required>
+                                            </div>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="last-name"
-                                                placeholder="Last Name">
-
+                                            <div class="inner-addon right-addon">
+                                                <input type="text" class="form-control" name="last-name"
+                                                    placeholder="Last Name" required>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="inner-addon right-addon">
+                                        <input type="email" class="form-control" name="user-email"
+                                            placeholder="example@exmple.com" required>
+                                    </div>
+                                    <div class="inner-addon right-addon">
+                                            <input type="text" class="form-control" name="user-phoneNumber"
+                                                placeholder="Phone Number" required>
+                                        </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="inner-addon right-addon">
+                                                <input type="text" class="form-control" name="user-city"
+                                                    placeholder="City" required>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="inner-addon right-addon">
+                                                <select name="user-state" class="form-control" required>
+                                                    <option value="none" selected>State</option>
+                                                    <option value="china">China</option>
+                                                    <option value="france">France</option>
+                                                    <option value="germany">Germany</option>
+                                                    <option value="italy">Italy</option> 
+                                                    <option value="japan">Japan</option>  
+                                                    <option value="russia">Russia</option>
+                                                    <option value="spain">Spain</option>   
+                                                    <option value="unitedKingdom">United Kingdom (UK)</option>                                             
+                                                    <option value="unitedStatesOfAmerica">United States of America (USA)</option>                                                   
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="inner-addon right-addon">
+                                                <input type="text" class="form-control" name="user-zip"
+                                                    placeholder="Zip" required>
+                                            </div>
                                     </div>
                             </div>
                             <div class="modal-footer">
