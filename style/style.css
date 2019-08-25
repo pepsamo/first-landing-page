@@ -24,6 +24,7 @@ body {
     .btn {
         background-color: rgb(158,232,221);
         border: none;
+        font-weight: bold;
     }
     .color-social {
         color: rgb(158,232,221);
