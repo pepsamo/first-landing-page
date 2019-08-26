@@ -26,10 +26,9 @@ section .row:last-child {
     left: 64px;
     bottom: 16px;
 }
-section .row:last-child .col-12 {
-    padding-bottom: 8px;
+.col-12 p {
+    font-weight: 600;
 }
-
 .color {
     color: rgb(0, 0, 0)
 }
@@ -49,7 +48,6 @@ section .row:last-child .col-12 {
 .color-social {
     color: rgb(158, 232, 221);
 }
-
 .modal-header,
 .modal-footer,
 .modal-body .form-control {
