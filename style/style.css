@@ -43,7 +43,9 @@ section .row:last-child .col-12 {
     border: none;
     font-weight: bold;
 }
-
+.col p.color + .btn {
+    box-shadow: 1px 1px 10px #c5c5c5;
+}
 .color-social {
     color: rgb(158, 232, 221);
 }
