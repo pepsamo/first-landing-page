@@ -3,40 +3,54 @@ body {
     height: 100%;
     width: 100%
 }
+
 body {
     background-color: rgb(245, 246, 247);
     font-size: 16px;
 }
+
 .container-fluid {
     height: inherit;
     width: 92%;
     background: url("../img/LandingStock_image_12.jpg");
     background-size: 80% 100%;
     background-repeat: no-repeat;
-    background-position-x: 192px;}
-    section .row {
-        width: 50%;
+    background-position-x: 192px;
+}
 
-    .color {
-        color: rgb(0, 0, 0)
-    }
-    .h-color {
-        color: rgba(0, 0, 0, 0.88)
-    }
-    .btn {
-        background-color: rgb(158,232,221);
-        border: none;
-        font-weight: bold;
-    }
-    .color-social {
-        color: rgb(158,232,221);
-    }
-    .modal-header, .modal-footer, .modal-body .form-control {
-        background-color: #F8F8F8;
-    }
-    .modal-body {
-        background-color: #C5C5C5;
-    }
+section .row {
+    width: 50%;
+}
 
+section .row:last-child {
+    left: 64px;
+    bottom: 16px;
+}
 
+.color {
+    color: rgb(0, 0, 0)
+}
 
+.h-color {
+    color: rgba(0, 0, 0, 0.88)
+}
+
+.btn {
+    background-color: rgb(158, 232, 221);
+    border: none;
+    font-weight: bold;
+}
+
+.color-social {
+    color: rgb(158, 232, 221);
+}
+
+.modal-header,
+.modal-footer,
+.modal-body .form-control {
+    background-color: #F8F8F8;
+}
+
+.modal-body {
+    background-color: #C5C5C5;
+}
