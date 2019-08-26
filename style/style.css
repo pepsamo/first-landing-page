@@ -26,6 +26,9 @@ section .row:last-child {
     left: 64px;
     bottom: 16px;
 }
+section .row:last-child .col-12 {
+    padding-bottom: 8px;
+}
 
 .color {
     color: rgb(0, 0, 0)
